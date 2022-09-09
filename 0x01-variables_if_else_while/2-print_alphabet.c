@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-	for (c = 'a'; c <= 'z'; ++c)
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		c = tolower(c);
 		putchar(c);
 	}
 	return (0);
