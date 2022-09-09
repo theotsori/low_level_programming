@@ -17,10 +17,15 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				putchar(',');
-				putchar(' ');
+
+				if (a != '56' || (c == '56' && i != '57')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
