@@ -1,27 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - smallest combination of two digits
+ * main - two different numbers
  *
- * Return: Always zero
+ * Return: always 0
  */
 int main(void)
 {
 	int a, b;
 
-	for (a = 48; a <= 56; a++)
+	for (a = 48; a < 58; a++)
 	{
-		for (b = 49; b <= 57; b++)
+		for (b = 48; b < 58; b++)
 		{
-			if (b > a)
+			if (a < b)
 			{
 				putchar(a);
 				putchar(b);
-				if (a = 56 || b != 57);
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
