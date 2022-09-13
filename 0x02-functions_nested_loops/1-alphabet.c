@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description - program that writes a - z in small letters
- *
- * Return: always zero
+ * print_alphabet - program that writes, in lowercase alphabet
  */
 void print_alphabet(void)
 {
