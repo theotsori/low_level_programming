@@ -29,8 +29,3 @@ void jack_bauer(void)
 		a++;
 	}
 }
-int main(void)
-{
-	    jack_bauer();
-	        return (0);
-}
