@@ -5,7 +5,7 @@
  * @c: char
  * Return: 0
  */
-char *rot13(char *c)
+char *rot13(char *s)
 {
 	int a, b;
 
@@ -16,9 +16,9 @@ char *rot13(char *c)
 	{
 		for (b = 0; c[b] != '\0'; b++)
 		{
-			if (c[a] == c[b])
+			if (s[a] == c[b])
 			{
-				c[a] = d[b];
+				s[a] = d[b];
 				break;
 			}
 		}
