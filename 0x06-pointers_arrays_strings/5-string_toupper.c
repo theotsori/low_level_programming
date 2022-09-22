@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *string_toupper - function that change 
+ * *string_toupper - function that change
  * lowercase letters to uppercase
- * @*: asteris
+ * @s: asteris
  *
  * Return: 0
  */
@@ -13,7 +13,8 @@ char *string_toupper(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] >= 'a' && s[i]<='v')
+		if (s[i] >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 32;
 	}
 	return (s);
+}
