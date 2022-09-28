@@ -16,7 +16,7 @@ int is_prime_number(int n)
 /**
  * nprime2 - confirms n is prime
  * @a: checks factor
- * @: prime
+ * @b: prime
  *
  * Return: 0 or 1 or prime
  */
