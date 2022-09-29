@@ -13,5 +13,8 @@ int nprime2(int a, int b);
 int is_palindrome(char *s);
 int _strlen_recursion(char *s);
 int get_pal(char *s, int len);
+int wildcmp(char *s1, char *s2);
+int _wild(char *s1, char *s2);
+char *s(char *s2);
 
 #endif
