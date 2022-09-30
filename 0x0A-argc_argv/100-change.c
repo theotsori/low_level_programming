@@ -43,7 +43,7 @@ int coinConverter(int i)
  * main - Minimum coin count
  * @argc: Command line arguments
  * @argv: Arrays
- * Return: 0 else 1 
+ * Return: 0 else 1
  */
 int main(int argc, char *argv[])
 {
