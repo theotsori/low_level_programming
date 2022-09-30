@@ -3,7 +3,7 @@
 
 /**
  * main - Prints the name of the program
- * @argc: comandline arguements 
+ * @argc: comandline arguements
  * @argv: array
  *
  * Return: 0
